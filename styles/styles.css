@@ -15,8 +15,7 @@ body {
 
 .container {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   padding: 0 10% 0 10%;
 }
 
@@ -49,10 +48,8 @@ body {
   height: 300px;
   margin: 10px 0 0 0;
   background: url(../images/main_image.jpeg);
-  /* background-image: url(../images/main_image.jpeg); */
   background-position: center top;
   background-size: cover;
-  /* border: 2px solid; */
   border: 1px solid #a9a9a9;
   border-radius: 4px;
 }
@@ -101,32 +98,20 @@ body {
 .work2,
 .work3 {
   display: inline-block;
-  /* border: 1px solid #a9a9a9; */
   width: 30%;
   height: auto;
   align-content: center;
   text-align: center;
   border-radius: 4px;
   color: #555454;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: inset 3px 3px 73px -8px rgba(126, 218, 252, 0.76);
+  -moz-box-shadow: inset 3px 3px 73px -8px rgba(126, 218, 252, 0.76);
+  box-shadow: inset 3px 3px 73px -8px rgba(126, 218, 252, 0.76);
 }
 
 .work2 {
   margin: 0 4.48% 0 4.48%;
 }
-
-/* .work1_bg {
-    width:100%;
-    height: 100px;
-    background: url(../images/memory_icon.png);
-    background-position: center;
-    background-size: 300px 200px;
-    background-repeat: no-repeat;
-}    */
 
 .work1_img {
   padding: 15px 0 0 0;
@@ -148,20 +133,11 @@ body {
 .work3:hover {
   transform: scale(1.1);
   cursor: pointer;
-
-  -webkit-box-shadow: inset 3px 1px 34px 11px rgba(219, 219, 219, 1);
-  -moz-box-shadow: inset 3px 1px 34px 11px rgba(219, 219, 219, 1);
-  box-shadow: inset 3px 1px 34px 11px rgba(219, 219, 219, 1);
-  background-color: #a3a3a3;
 }
 
 .work_title {
   margin: 8px 0 8px 0;
   font-size: 20px;
-}
-
-.work2_img:hover,
-.work3_img:hover {
 }
 
 a {

@@ -12,7 +12,7 @@
   .work1,
   .work2,
   .work3 {
-    width: 29%;
+    width: 29.65%;
     display: inline-block;
   }
 
@@ -79,7 +79,7 @@
   .work2,
   .work3 {
     display: inline-block;
-    width: 29%;
+    width: 29.5%;
   }
 
   .work1_img {
